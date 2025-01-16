@@ -1,7 +1,16 @@
-import '../styles/globals.css'
+import "../styles/globals.css";
+import "react-phone-number-input/style.css";
+import "swiper/css";
+import "../styles/swiperStyle.css";
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+import { DM_Sans } from "next/font/google";
+import { useEffect } from "react";
+
+function MyApp({ title, Component, pageProps }) {
+	useEffect(() => {
+		document.title = "Alteryouth | Towards a literate bangladesh";
+	}, [title]);
+	return <Component {...pageProps} />;
 }
 
-export default MyApp
+export default MyApp;

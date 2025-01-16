@@ -1,26 +1,38 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	--swiper-navigation-color: gray;
+	--swiper-navigation-size: 12px !important;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+@layer components {
+	.btn {
+		@apply px-4 py-2 font-medium inline-flex items-center justify-center rounded-lg tracking-tighter;
+	}
+	.btn-primary {
+		@apply bg-green-500  text-white;
+	}
+	.inpt {
+		@apply w-full h-12 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500;
+	}
+	.card {
+		@apply p-5 border border-[#F1F1F1] rounded-sm shadow-[0_7px_14px_#EAEAEA] max-w-[400px] w-full;
+	}
+	.heading {
+		@apply text-2xl mt-2 tracking-wide font-bold leading-7 text-black;
+	}
+	.paragraph {
+		@apply mt-3 tracking-tight;
+	}
+	.gray_tag {
+		@apply text-sm tracking-tight leading-5 text-gray-400;
+	}
+	.tag {
+		@apply text-sm font-semibold leading-5 tracking-tight;
+	}
+	.menuItem {
+		@apply flex items-center justify-center font-bold;
+	}
 }

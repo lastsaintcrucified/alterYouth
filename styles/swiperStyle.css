@@ -1,0 +1,10 @@
+.swiper-button-next,
+.swiper-button-prev {
+	border-radius: 50%;
+	color: black !important;
+	padding: 15px;
+	background-color: whitesmoke;
+}
+.swiper-pagination-bullet {
+	display: none !important;
+}
