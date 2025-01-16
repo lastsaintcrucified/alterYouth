@@ -26,7 +26,7 @@ const ScholarshipApp = () => {
 		}
 	};
 	return (
-		<div className='w-1vw h-1vh p-5 flex flex-col md:flex-row gap-3 items-center justify-between'>
+		<div className='w-1vw h-[800px] md:h-[650px] p-5  flex flex-col md:flex-row gap-3 items-center justify-between'>
 			<div className='md:w-1/2 md:p-10 p-0 w-full flex flex-col md:flex-row items-center justify-center '>
 				<h1 className='heading md:hidden mb-10'>The scholarship app</h1>
 				{!isVideoVisible && (

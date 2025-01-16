@@ -35,11 +35,11 @@ const Nav = ({ toggleBar, scrolled }) => {
 						scrolled ? "text-green-500" : "text-white"
 					} px-5 font-bold`}
 				>
-					<a href='#logoTicker'>About</a>
-					<a href='#product'>How it works</a>
-					<a href='#pricing'>Scholarships</a>
-					<a href='#testimonial'>Collaborate</a>
-					<a href='#testimonial'>Log in</a>
+					<a href='#About'>About</a>
+					<a href='#HowWork'>How it works</a>
+					<a href='#Scholarships'>Scholarships</a>
+					<a href='#Collaborate'>Collaborate</a>
+					<a href='#Login'>Log in</a>
 				</nav>
 			</div>
 		</header>

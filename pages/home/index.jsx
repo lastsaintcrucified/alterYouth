@@ -39,7 +39,7 @@ const Home = () => {
 		};
 	}, [isPageScrolled]);
 	return (
-		<div className='w-full h-full'>
+		<div className='w-full h-auto'>
 			<Nav
 				toggleBar={(bool) => handleNavChange(bool)}
 				scrolled={isPageScrolled}

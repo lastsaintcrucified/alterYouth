@@ -4,7 +4,7 @@ import GoogleIcon from "../../public/icons/Google";
 
 const Association = () => {
 	return (
-		<div className='mt-20 p-10 w-full flex flex-col md:flex-row items-center justify-between'>
+		<div className='p-10  mt-10 w-full h-full flex flex-col md:flex-row items-center justify-between'>
 			<div className='pb-5 md:pb-0 w-1/3 flex flex-col md:flex-row items-center justify-center border-b border-l-0 md:border-b-0 md:border-gray md:border-r md:border-gray-300 '>
 				<Image
 					src='/images/undp.jpg'

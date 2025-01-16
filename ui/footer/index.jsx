@@ -3,7 +3,7 @@ import { FiFacebook, FiInstagram } from "react-icons/fi";
 
 const Footer = () => {
 	return (
-		<footer className='bg-slate-50'>
+		<footer className='bg-slate-50 w-full h-full'>
 			<div className='mx-10 mb-2 pt-10 flex flex-col md:flex-row  md:items-end justify-between'>
 				<ul>
 					<li className='tag text-[14px] font-bold my-2'>
